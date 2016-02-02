@@ -3,7 +3,7 @@
 article {
 	background-color: #804000;
 	width: 48%;
-	height:90%;
+	height:85%;
 	float:left;
 	display:inline-block;
 	text-align:center;
@@ -13,11 +13,15 @@ article {
 aside {
 	background-color: #800040;
 	width: 48%;
-	height:90%;
+	height:85%;
 	float: right;
 	display:inline-block;
 	text-align:center;
 	margin-right: 2em;
+}
+
+body {
+	font-family: 'Orbitron', sans-serif;
 }
 
 header {
@@ -37,15 +41,15 @@ footer {
 nav {
 	height: 40%;
 	width:100%;
-	display:inline-block;
-	background-color: #008080;
+	display:inline !important;
+	background-color: black;
 }
 
 section {
 	background-color: #404040;
 	padding-top:10%;
 	width: 100%;
-	height: 1000px;
+	height: 620px;
 	border-bottom: 5px double gray;
 	display:inline-block;
 }
@@ -68,17 +72,33 @@ header h1 {
 	padding-left: 10px;
 }
 
-nav ul {
-	float:right;
+header h3 {
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
 	display:inline;
+	padding-left: 10px;
+}
+
+li a {
+	text-decoration:none;
+	color:white;
+}
+
+li a:hover {
+	text-shadow: 2px 2px 10px gray;
+	font-weight: bold;
+}
+
+nav ul {
+	margin-top: 0px;
+	margin-right: 20px;
+	float: right;
+	display: inline;
 }
 
 nav ul li {
 	display:inline;
-	background-image: url('images/link.png');
-	background-position: left center;
-	background-repeat: no-repeat;
-	background-size: 15px;
 	padding-left: 20px;
 }
 
@@ -104,6 +124,13 @@ section h2 {
 	left: 0;
 	z-index: 9999;
 }
+
+/** IDs */
+#intro article {
+	width:96%
+}
+
+
 
 /** For blinking class */
 
