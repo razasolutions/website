@@ -1,7 +1,7 @@
 /** Major Elements */
 
 article {
-	background-color: #804000;
+	/* background-color: #804000; */
 	width: 48%;
 	height:85%;
 	float:left;
@@ -11,7 +11,7 @@ article {
 }
 
 aside {
-	background-color: #800040;
+	/* background-color: #800040; */
 	width: 48%;
 	height:85%;
 	float: right;
@@ -27,14 +27,15 @@ body {
 header {
 	width:100%;
 	border-bottom: 5px double gray;
-	background-color: black;
+	border-bottom-left-radius:50%;
+	border-bottom-right-radius:50%;
+	background-color: #ADADAD;
 	height: 15%;
 }
 
 footer {
-	border-top: 5px solid black;
 	display: block;
-	background-color: black;
+	background-color: black; 
 	text-align:center;
 }
 
@@ -42,11 +43,11 @@ nav {
 	height: 40%;
 	width:100%;
 	display:inline !important;
-	background-color: black;
+	background-color: #ADADAD; 
 }
 
 section {
-	background-color: #404040;
+	/* background-color: #404040; */
 	padding-top:10%;
 	width: 100%;
 	height: 620px;
@@ -64,25 +65,23 @@ footer h2 {
 }
 
 header h1 {
-	color: white;
+	color: black;
 	font-weight: bold;
 	font-size: 60px;
 	display: inline;
 	font-family: 'Orbitron', sans-serif;
-	padding-left: 10px;
 }
 
 header h3 {
-	color: white;
+	color: black;
 	font-family: 'Orbitron', sans-serif;
 	font-weight: bold;
 	display:inline;
-	padding-left: 10px;
 }
 
 li a {
 	text-decoration:none;
-	color:white;
+	color:black;
 }
 
 li a:hover {
@@ -92,7 +91,7 @@ li a:hover {
 
 nav ul {
 	margin-top: 0px;
-	margin-right: 20px;
+	margin-right: 150px;
 	float: right;
 	display: inline;
 }
@@ -110,14 +109,6 @@ section h2 {
 
 /** class */
 
-.blinking {
-  -webkit-animation: 2s blink step-end infinite;
-  -moz-animation: 2s blink step-end infinite;
-  -ms-animation: 2s blink step-end infinite;
-  -o-animation: 2s blink step-end infinite;
-  animation: 2s blink step-end infinite;
-}
-
 .fixed-top {
 	position: fixed;
 	top: 0;
@@ -125,56 +116,11 @@ section h2 {
 	z-index: 9999;
 }
 
+.logo-margin-left {
+	margin-left:150px;
+}
+
 /** IDs */
 #intro article {
 	width:96%
-}
-
-
-
-/** For blinking class */
-
-@keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-moz-keyframes blink {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-webkit-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-ms-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-o-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
 }

@@ -1,0 +1,108 @@
+/* Blinking Black - White*/
+.blinking {
+  -webkit-animation: 2s blink step-end infinite;
+  -moz-animation: 2s blink step-end infinite;
+  -ms-animation: 2s blink step-end infinite;
+  -o-animation: 2s blink step-end infinite;
+  animation: 2s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+}
+
+/* Blinking Gray - Black */
+
+.blinking-gb {
+  -webkit-animation: 2s blink-gb step-end infinite;
+  -moz-animation: 2s blink-gb step-end infinite;
+  -ms-animation: 2s blink-gb step-end infinite;
+  -o-animation: 2s blink-gb step-end infinite;
+  animation: 2s blink-gb step-end infinite;
+}
+
+@keyframes "blink-gb" {
+  from, to {
+    color: black;
+  }
+  50% {
+    color: #ADADAD;
+  }
+}
+
+@-moz-keyframes blink-gb {
+  from, to {
+    color: black;
+  }
+  50% {
+    color: #ADADAD;
+  }
+}
+
+@-webkit-keyframes "blink-gb" {
+  from, to {
+    color: black;
+  }
+  50% {
+    color: #ADADAD;
+  }
+}
+
+@-ms-keyframes "blink-gb" {
+  from, to {
+    color: black;
+  }
+  50% {
+    color: #ADADAD;
+  }
+}
+
+@-o-keyframes "blink-gb" {
+  from, to {
+    color: black;
+  }
+  50% {
+    color: #ADADAD;
+  }
+}
