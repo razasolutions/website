@@ -31,18 +31,18 @@
         <header class="fixed-top">
             <div class="row">
                 <div class="col-sm-3 text-center">
-                    <h1>Raza<span class="blinking-gb">.</span></h1>
+                    <h1>Raza<span class="blinking">.</span></h1>
                     <h3>Software Solutions</h3>
                 </div>
                 <div class="col-sm-9">
                     <nav class="navbar">
                         <ul  class="nav navbar-nav navbar-right">
-                            <li><a href="#introSection" class="smooth">Intro</a></li>
-                            <li><a href="#historySection" class="smooth">History</a></li>
-                            <li><a href="#missionSection" class="smooth">Mission</a></li>
-                            <li><a href="#portfolioSection" class="smooth">Portfolio</a></li>
-                            <li><a href="#testimonialsSection" class="smooth">Testimonials</a></li>
-                            <li><a href="#contactSection" class="smooth">Contact</a></li>
+                            <li id="menu-introSection" data-next="historySection" data-previous="null" class="current"><a href="#introSection" class="smooth">Intro</a></li>
+                            <li id="menu-historySection" data-next="missionSection" data-previous="introSection"><a href="#historySection" class="smooth">History</a></li>
+                            <li id="menu-missionSection" data-next="portfolioSection" data-previous="historySection"><a href="#missionSection" class="smooth">Mission</a></li>
+                            <li id="menu-portfolioSection" data-next="testimonialsSection" data-previous="missionSection"><a href="#portfolioSection" class="smooth">Portfolio</a></li>
+                            <li id="menu-testimonialsSection" data-next="contactSection" data-previous="portfolioSection"><a href="#testimonialsSection" class="smooth">Testimonials</a></li>
+                            <li id="menu-contactSection" data-next="null" data-previous="testimonialsSection"><a href="#contactSection" class="smooth">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -51,7 +51,7 @@
 
         <div class="row">
 
-            <section id="introSection" data-next="historySection" data-previous="null" class="current">
+            <section id="introSection">
                 <h2> Banner por baixo, intro por cima. </h2>
                 <article class="text-center">
                     <p> We are Raza. Scroll down to meet us! </p>
@@ -59,7 +59,7 @@
                 </article>
             </section>
 
-            <section id="historySection" data-next="missionSection" data-previous="introSection">
+            <section id="historySection">
                 <h2> History </h2>
                 <article>
                     <p>Todavia, a hegemonia do ambiente pol�tico facilita a cria��o de todos os recursos funcionais envolvidos.
@@ -73,7 +73,7 @@
                 </aside>
             </section>
 
-            <section id="missionSection" data-next="portifolioSection" data-previous="historySection">
+            <section id="missionSection">
                 <h2> Mission </h2>
                 <article>
                     <p>Todavia, a hegemonia do ambiente pol�tico facilita a cria��o de todos os recursos funcionais envolvidos.
@@ -87,8 +87,8 @@
                 </aside>
             </section>
 
-            <section id="portfolioSection" data-next="testimonialsSection" data-previous="missionSection">
-                <h2> Portifolio </h2>
+            <section id="portfolioSection">
+                <h2> Portfolio </h2>
                 <article>
                     <p>Todavia, a hegemonia do ambiente pol�tico facilita a cria��o de todos os recursos funcionais envolvidos.
                         Podemos j� vislumbrar o modo pelo qual o julgamento imparcial das eventualidades exige a precis�o
@@ -101,7 +101,7 @@
                 </aside>
             </section>
 
-            <section id="testimonialsSection" data-next="contactSection" data-previous="portifolioSection">
+            <section id="testimonialsSection">
                 <h2> Testimonials </h2>
                 <article>
                     <p>Todavia, a hegemonia do ambiente pol�tico facilita a cria��o de todos os recursos funcionais envolvidos.
@@ -116,7 +116,8 @@
             </section>
 
             <!-- Contact section -->
-            <section id="contactSection" data-next="null" data-previous="testimonialsSection">
+            <section id="contactSection">
+				<h2> Contact </h2>
                 <div class="row">
                     <div class="col-xs-12">
                         <!-- Contact form -->
@@ -158,7 +159,7 @@
             </section>
 
             <footer>
-                <h2>Powered by Raza<span class="blinking-gb">.</span></h2>
+                <h2>Powered by Raza<span class="blinking">.</span></h2>
             </footer>
 
         </div>

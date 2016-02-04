@@ -27,6 +27,8 @@ footer {
 	background-color: #ADADAD; 
 	text-align:center;
 	margin-top:-30px;
+	margin-left:1em;
+	width:97%;
 	border-top-left-radius: 100px 100%;
 	border-top-right-radius: 100px 100%;
 }
@@ -40,7 +42,8 @@ form {
 section {
 	/* background-color: #404040; */
     padding: 10%;
-	width: 100%;
+	margin-left:1em;
+	width: 97%;
 	height: 620px;
 	border-bottom: 5px double gray;
 	border-bottom-left-radius:50%;
@@ -90,6 +93,10 @@ form button {
 }
 
 /** class */
+
+.current {
+	background-color:#CDCDCD;
+}
 
 .fixed-top {
 	position: fixed;
