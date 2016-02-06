@@ -9,7 +9,7 @@ function MouseWheelHandler(e, delta) {
         scrollTarget: "#" + target
 		});
 		$('.current').removeClass('current');
-		$('#'+target).addClass('current');
+		$('#menu-'+target).addClass('current');
 	} else if (delta < 0){
 		var target = $('.current').data('next');
 		if(target == null) return;
@@ -18,7 +18,7 @@ function MouseWheelHandler(e, delta) {
         scrollTarget: "#" + target
 		});
 		$('.current').removeClass('current');
-		$('#'+target).addClass('current');
+		$('#menu-'+target).addClass('current');
 	}
 	return false;
 }

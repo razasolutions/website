@@ -1,4 +1,4 @@
-/* Blinking Black - White*/
+/* Blinking Black - transparent*/
 .blinking {
   -webkit-animation: 2s blink step-end infinite;
   -moz-animation: 2s blink step-end infinite;
@@ -12,7 +12,7 @@
     color: black;
   }
   50% {
-    color: white;
+    color: transparent;
   }
 }
 
@@ -30,7 +30,7 @@
     color: black;
   }
   50% {
-    color: white;
+    color: transparent;
   }
 }
 
@@ -39,7 +39,7 @@
     color: black;
   }
   50% {
-    color: white;
+    color: transparent;
   }
 }
 
@@ -48,61 +48,6 @@
     color: black;
   }
   50% {
-    color: white;
-  }
-}
-
-/* Blinking Gray - Black */
-
-.blinking-gb {
-  -webkit-animation: 2s blink-gb step-end infinite;
-  -moz-animation: 2s blink-gb step-end infinite;
-  -ms-animation: 2s blink-gb step-end infinite;
-  -o-animation: 2s blink-gb step-end infinite;
-  animation: 2s blink-gb step-end infinite;
-}
-
-@keyframes "blink-gb" {
-  from, to {
-    color: black;
-  }
-  50% {
-    color: #ADADAD;
-  }
-}
-
-@-moz-keyframes blink-gb {
-  from, to {
-    color: black;
-  }
-  50% {
-    color: #ADADAD;
-  }
-}
-
-@-webkit-keyframes "blink-gb" {
-  from, to {
-    color: black;
-  }
-  50% {
-    color: #ADADAD;
-  }
-}
-
-@-ms-keyframes "blink-gb" {
-  from, to {
-    color: black;
-  }
-  50% {
-    color: #ADADAD;
-  }
-}
-
-@-o-keyframes "blink-gb" {
-  from, to {
-    color: black;
-  }
-  50% {
-    color: #ADADAD;
+    color: transparent;
   }
 }
