@@ -13,6 +13,10 @@ aside {
 	margin-right: 2em;
 }
 
+body{
+	font-family: 'Orbitron', sans-serif !important;
+}
+
 header {
     max-width: inherit;
 	width: inherit;
@@ -24,13 +28,9 @@ header {
 
 footer {
 	display: block;
-	background-color: #ADADAD; 
-	text-align:center;
-	margin-top:-30px;
+	text-align:right;
 	margin-left:1em;
 	width:97%;
-	border-top-left-radius: 100px 100%;
-	border-top-right-radius: 100px 100%;
 }
 
 form {
@@ -40,7 +40,6 @@ form {
 }
 
 section {
-	/* background-color: #404040; */
     padding: 10%;
 	margin-left:1em;
 	width: 97%;
@@ -54,7 +53,11 @@ section {
 
 /** Minor Elements */
 
-footer h2 {
+a {
+	color:black;
+}
+
+footer h3 {
 	color:black;
 	font-family: 'Orbitron', sans-serif;
 	font-weight: bold;
@@ -87,7 +90,6 @@ button span.glyphicon {
     margin-right: 10px;
 }
 
-
 form button {
     width: 100px;
 }
@@ -96,6 +98,7 @@ form button {
 
 .current {
 	background-color:#CDCDCD;
+	font-weight: bold;
 }
 
 .fixed-top {
